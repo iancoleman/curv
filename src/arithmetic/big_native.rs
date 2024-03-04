@@ -246,7 +246,8 @@ impl Integer for BigInt {
     }
 
     fn divides(&self, other: &Self) -> bool {
-        self.num.divides(&other.num)
+        // num_bigint::bigint::divides is depricated
+        self.num.is_multiple_of(&other.num)
     }
 
     fn is_multiple_of(&self, other: &Self) -> bool {
