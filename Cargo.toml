@@ -1,5 +1,5 @@
 [package]
-name = "curv-kzen"
+name = "sn_curv"
 version = "0.10.1"
 edition = "2018"
 authors = [
@@ -8,10 +8,10 @@ authors = [
 ]
 license = "MIT"
 description = "Curv contains an extremely simple interface to onboard new elliptic curves. Use this library for general purpose elliptic curve cryptography"
-repository = "https://github.com/ZenGo-X/curv"
+repository = "https://github.com/maidsafe/sn_curv"
 
 [lib]
-name = "curv"
+name = "sn_curv"
 crate-type = ["lib"]
 
 [dependencies]
